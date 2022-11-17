@@ -1,0 +1,23 @@
+{
+  "name": "week-06-devtools_debugging_and_unit_tests",
+  "version": "1.0.0",
+  "description": "for debugging",
+  "main": "WAR.js",
+  "scripts": {
+    "test": "console.log(\"test:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smiller3033/Promineo-Tech-week-6-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smiller3033/Promineo-Tech-week-6-assignment/issues"
+  },
+  "homepage": "https://github.com/smiller3033/Promineo-Tech-week-6-assignment#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
+  }
+}
