@@ -105,7 +105,7 @@ class War {
         this.player1 = new Player("Jeff");
         this.player2 = new Player("Martha");
         this.deck = new Deck();
-        this.deck.initializeDeck();
+        this.deck.cards = this.deck.initializeDeck();
     }
 
     deal() {
@@ -123,7 +123,7 @@ class War {
     play() {
         let card1 = this.player1.playingCards.pop();
         let card2 = this.player2.playingCards.pop();
-        let msg = `Player 1 plays ${card1.face} of ${card1.suit}
+        let msg = `        Player 1 plays ${card1.face} of ${card1.suit}
         Player 2 plays ${card2.face} of ${card2.suit}
         `
 
@@ -153,14 +153,10 @@ class War {
     }
 }
 
-let card = new Card(14, "Spades");
 
-console.log(card.face);
-
-/*
 //initialize game and deal
 let game = new War();
-game.deal()
+game.deal();
 
 //play game
 let gameMsg;
@@ -171,6 +167,5 @@ for (let i = 0; i < 26; i++) {
 }
 
 //determine winner
-results = game.end();d
+results = game.end();
 console.log(results);
-*/
